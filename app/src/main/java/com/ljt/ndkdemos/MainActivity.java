@@ -16,6 +16,14 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this,"开始调用JNI。。。"
                         + com.ljt.ndkdemos.utils.ViewUtils.getStringFromJni(),Toast.LENGTH_LONG).show();
+
+                /*
+                *
+                * ViewUtils utils = new ViewUtils();
+                utils.callMethod1();
+                Toast.makeText(MainActivity.this,"开始调用JNI。。。",Toast.LENGTH_LONG).show();
+                *
+                * */
             }
         });
     }
