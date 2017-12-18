@@ -8,7 +8,7 @@ package com.ljt.ndkdemos.utils;
 
 public class ViewUtils2 {
     public ViewUtils2(){
-
+    System.out.println("");
     }
     static{
         System.loadLibrary("hellojni");
