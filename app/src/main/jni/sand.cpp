@@ -24,6 +24,7 @@
 #include <stdlib.h>
 /*
  * 参考https://github.com/xyzxqs/XLowPoly/blob/master/xlowpoly/src/main/jni/lowpoly.c
+ * ------》》》
  * */
 
 int start_pro(const int *pixels, int *result,int size, int with, int heigth, int threshold, int point_count,
